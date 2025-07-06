@@ -77,9 +77,12 @@ const projectDetailsData = [
 
 
 
-// Card tilt effect
+const isTouchDevice = () => 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
 const handleMouseMove = (e, index) => {
+  if (isTouchDevice()) return;
   const card = document.getElementById(`project-${index}`);
+  if (!card) return;
   const rect = card.getBoundingClientRect();
   const x = e.clientX - rect.left;
   const y = e.clientY - rect.top;
@@ -89,6 +92,7 @@ const handleMouseMove = (e, index) => {
   const rotateY = ((centerX - x) / 10).toFixed(2);
   card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 };
+
 
 const handleMouseLeave = (index) => {
   const card = document.getElementById(`project-${index}`);
@@ -114,13 +118,25 @@ const handleCloseDetails = () => {
     <section className="projects-section">
       <h2 className="projects-title">So, My Projects Are:</h2>
       <Swiper
-        modules={[Navigation, Pagination]}
-        spaceBetween={80}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        loop={true}
-      >
+      modules={[Navigation, Pagination]}
+      spaceBetween={30}
+      slidesPerView={3}
+      navigation
+      pagination={{ clickable: true }}
+      loop={true}
+      breakpoints={{
+      0: {
+      slidesPerView: 1, // 👈 1 project on small screens
+      },
+      768: {
+      slidesPerView: 2,
+      },
+      1024: {
+      slidesPerView: 3,
+      },
+      }}
+    >
+
         {projectDetailsData.map((project, index) => (
           <SwiperSlide key={index}>
             <div
