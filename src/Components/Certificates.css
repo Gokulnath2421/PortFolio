@@ -59,3 +59,38 @@
   text-decoration: underline;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .certs-horizontal-section {
+    padding: 1rem;
+  }
+
+  .certs-timeline {
+    padding: 1rem 0;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .cert-card {
+    flex: 0 0 85vw;               /* occupy most of the viewport width */
+    height: 85vw;                 /* square ratio */
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .cert-year {
+    font-size: 1.2rem;
+  }
+
+  .cert-content h3 {
+    font-size: 1rem;
+  }
+
+  .cert-content p {
+    font-size: 0.9rem;
+  }
+}
