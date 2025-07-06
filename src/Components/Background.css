@@ -1,0 +1,52 @@
+/* Background.css */
+
+/* 1️⃣ Reset & full-height layout */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: auto; /* allow scroll only if needed */
+}
+
+/* 2️⃣ Full-screen Spline canvas */
+.spline-background,
+.spline-background > canvas {
+  position: fixed;
+  z-index: 0;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* 3️⃣ Pointer + drag feedback */
+.spline-background > canvas {
+  cursor: grab; /* show it’s draggable */
+  pointer-events: auto; /* keep interactions alive */
+}
+
+.spline-background > canvas:active {
+  cursor: grabbing;
+}
+
+/* 4️⃣ Mobile-safe fallback */
+@media (max-width: 768px) {
+  .spline-background,
+  .spline-background > canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    touch-action: manipulation;
+  }
+
+  body {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
