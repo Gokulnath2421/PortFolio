@@ -1,3 +1,4 @@
+
 .projects-section {
   position: relative;
   display: block;
@@ -10,7 +11,7 @@
   border: 2px solid rgba(255, 255, 255, 0.4);
   color: #fff;
   box-sizing: border-box;
-  overflow-x: hidden; /* 🔒 Prevents overflow */
+  overflow-x: hidden;
 }
 
 .projects-title {
@@ -26,7 +27,6 @@
   gap: 1rem;
 }
 
-/* Project Card (Desktop) */
 .project-card {
   background: transparent;
   border-radius: 12px;
@@ -39,6 +39,7 @@
   text-align: center;
   height: 100%;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-sizing: border-box;
 }
 
 .project-card:hover {
@@ -62,7 +63,6 @@
   color: #ddd;
 }
 
-/* 💡 Mobile Responsive Layout */
 @media (max-width: 768px) {
   .projects-title {
     font-size: 1.8rem;
@@ -88,8 +88,8 @@
   }
 
   .project-card {
-    flex: 0 0 80vw;      /* 🟩 Smaller square cards */
-    height: 80vw;
+    flex: 0 0 78vw;
+    height: 78vw;
     scroll-snap-align: center;
     padding: 0.8rem;
     display: flex;
@@ -111,15 +111,14 @@
   }
 }
 
-/* 📱 Extra Small Devices */
 @media (max-width: 480px) {
   .projects-title {
     font-size: 1.5rem;
   }
 
   .project-card {
-    flex: 0 0 85vw;   /* Slightly smaller on tiny phones */
-    height: 85vw;
+    flex: 0 0 82vw;
+    height: 82vw;
     padding: 0.7rem;
     margin: 0 auto;
   }
