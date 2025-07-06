@@ -28,20 +28,38 @@ Welcome to my personal portfolio website — a sleek, responsive, and immersive 
 
 ## 📁 Folder Structure
 
-Portfolio/
-│
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable components (Navbar, About, Skills...)
-│ ├── assets/ # Images (project thumbnails, icons, etc.)
-│ ├── App.jsx # Main routing
-│ ├── index.css # Global styles
-│ └── main.jsx # Entry point
-└── README.md
+📁 Portfolio/
+└── 📁 Resume/
+    ├── 📁 public/
+    │   └── index.html
+    ├── 📁 src/
+    │   ├── 📁 Assets/
+    │   │   └── [images, logos, etc.]
+    │   ├── 📁 Components/
+    │   │   ├── About.jsx
+    │   │   ├── Skills.jsx
+    │   │   ├── Projects.jsx
+    │   │   ├── ProjectDetails.jsx
+    │   │   ├── Certifications.jsx
+    │   │   ├── Contact.jsx
+    │   │   └── Navbar.jsx
+    │   ├── 📁 Styles/
+    │   │   ├── About.css
+    │   │   ├── Skills.css
+    │   │   ├── Projects.css
+    │   │   ├── ProjectDetails.css
+    │   │   ├── Certifications.css
+    │   │   ├── Contact.css
+    │   │   └── Navbar.css
+    │   ├── App.jsx
+    │   └── main.jsx
+    ├── .gitignore
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
 
-yaml
-Copy
-Edit
+
+
 
 
 ---
@@ -95,10 +113,6 @@ Make sure to install dependencies like swiper, @splinetool/react-spline, etc.
 This project is open-source for educational and inspirational use. Reach out if you’d like to collaborate!
 
 Designed & Built with ❤️ by Akash
-
-yaml
-Copy
-Edit
 
 ---
 
