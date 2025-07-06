@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website — a sleek, responsive, and immersive web experience built with **React + Vite**, enriched with 3D elements, animated carousels, and a beautifully blurred glassmorphic design.
 
-> 🚀 Live soon at: [akashh0.github.io/Portfolio](https://akashh0.github.io/Portfolio) (or your custom domain)
+> 🚀 Live soon at: [akashh0.github.io/Portfolio](https://akashh0.github.io/Portfolio) 
 
 ---
 
@@ -107,7 +107,7 @@ I wanted to build something that feels **alive**, not just a static list of achi
 
 ## 📦 How to Run Locally
 
-```bash
+
 git clone https://github.com/Akashh0/Portfolio.git
 cd Portfolio
 npm install
@@ -116,9 +116,9 @@ npm run dev
 Make sure to install dependencies like swiper, @splinetool/react-spline, etc.
 
 📩 Contact
-📧 Email: akash@example.com
+📧 Email: akashkrishh75@gmail.com
 
-🌐 LinkedIn: linkedin.com/in/akashkrishnan
+🌐 LinkedIn: https://www.linkedin.com/in/akash-krishnan-m-401249303/
 
 🎓 University: Dr. MGR University & Research Institute, Tamil Nadu
 
