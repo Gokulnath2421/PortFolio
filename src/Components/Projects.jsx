@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './Projects.css';
 import horizonx from '../Assets/horizonx.png';
-import SafeHouse from '../Assets/safehouse.png';
-import Emotion from '../Assets/emotion.png';
+import safeHouse from '../Assets/safehouse.png';
+import emotion from '../Assets/emotion.png';
 import career from '../Assets/career.png';
 import ProjectDetails from './ProjectDetails';
 
@@ -16,7 +16,7 @@ const projectDetailsData = [
   {
     title: 'SafeHouse',
     description: 'A cyber awareness site with interactive content and videos.',
-    image: SafeHouse,
+    image: safeHouse,
     details: 'Cybersecurity awareness site with React, video modals, and an interactive game.',
     tech: ['React', 'JavaScript', 'CSS3', 'VideoJS', 'Modals'],
     features: [
@@ -46,7 +46,7 @@ const projectDetailsData = [
   {
     title: 'Emotion Detector',
     description: 'ML-based voice emotion recognition using MFCCs and tone analysis.',
-    image: Emotion,
+    image: emotion,
     details: 'An emotion recognition system using audio features like MFCCs, chroma and pitch to detect emotional tone.',
     tech: ['Python', 'Librosa', 'Scikit-learn', 'Machine Learning'],
     features: [
