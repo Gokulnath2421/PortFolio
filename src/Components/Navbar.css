@@ -43,7 +43,7 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 0.6rem 1rem;
-    width: 100%;                  /* Ensure full width on small screens */
+    width: 80%;                  /* Ensure full width on small screens */
     box-sizing: border-box;       /* Include padding in width */
     display: flex;
     justify-content: space-between;
