@@ -28,37 +28,50 @@ Welcome to my personal portfolio website — a sleek, responsive, and immersive 
 
 ## 📁 Folder Structure
 
-📁 Portfolio/
-└── 📁 Resume/
-    ├── 📁 public/
-    │   └── index.html
-    ├── 📁 src/
-    │   ├── 📁 Assets/
-    │   │   └── [images, logos, etc.]
-    │   ├── 📁 Components/
-    │   │   ├── About.jsx
-    │   │   ├── Skills.jsx
-    │   │   ├── Projects.jsx
-    │   │   ├── ProjectDetails.jsx
-    │   │   ├── Certifications.jsx
-    │   │   ├── Contact.jsx
-    │   │   └── Navbar.jsx
-    │   ├── 📁 Styles/
-    │   │   ├── About.css
-    │   │   ├── Skills.css
-    │   │   ├── Projects.css
-    │   │   ├── ProjectDetails.css
-    │   │   ├── Certifications.css
-    │   │   ├── Contact.css
-    │   │   └── Navbar.css
-    │   ├── App.jsx
-    │   └── main.jsx
-    ├── .gitignore
-    ├── package.json
-    ├── README.md
-    └── vite.config.js
+Portfolio/
 
+Root directory (contains your entire project setup)
 
+Resume/
+➤ The actual Vite + React project folder.
+
+public/
+
+index.html — Main HTML entry point.
+
+src/
+
+Assets/ — Contains images, logos, and other media.
+
+Components/ — React components split by feature:
+
+Navbar.jsx
+
+About.jsx
+
+Skills.jsx
+
+Projects.jsx
+
+ProjectDetails.jsx
+
+Certifications.jsx
+
+Contact.jsx
+
+Styles/ — Modular CSS files for each component:
+
+Navbar.css, About.css, Skills.css, etc.
+
+App.jsx — Root component combining all UI sections.
+
+main.jsx — Mounts the app into index.html.
+
+.gitignore — Lists files/folders Git should ignore.
+
+package.json — Project metadata and dependency list.
+
+vite.config.js — Configuration for the Vite build tool.
 
 
 
