@@ -148,7 +148,7 @@ const handleCloseDetails = () => {
               <img src={project.image} alt={project.title} />
               <div className="project-info">
                 <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <a href='https://akashh0.github.io/WeatherSite/' target="_blank" rel="noreferrer">Live Demo</a>
                 <button onClick={() => handleViewProject(index)}>View Project</button>
               </div>
             </div>
