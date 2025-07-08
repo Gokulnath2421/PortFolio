@@ -26,8 +26,7 @@ const projectDetailsData = [
     ],
     journey: 'We brainstormed a way to make cybersecurity engaging for all. I handled the video modals and interactivity.',
     learned: 'State management in React, modal UI, component reuse.',
-    future: 'Add quiz certification and user login system.',
-    link: 'https://safehouse-cyber.netlify.app', // 🔗 Add your deployed link here
+    future: 'Add quiz certification and user login system.', // 🔗 Add your deployed link here
   },
   {
     title: 'HorizonX',
@@ -43,7 +42,7 @@ const projectDetailsData = [
     journey: 'From building globe terrain to layering real-time data, it was all about syncing UI and UX.',
     learned: '3D rendering basics, real-time data flow, layered React composition.',
     future: 'Improve performance with lazy loading and WebGL optimization.',
-    link: 'https://horizonx-weather.netlify.app', // 🔗 Add your deployed link here
+    link: 'https://akashh0.github.io/WeatherSite/', // 🔗 Add your deployed link here
   },
   {
     title: 'Emotion Detector',
@@ -58,8 +57,7 @@ const projectDetailsData = [
     ],
     journey: 'We avoided speech-to-text and focused on raw acoustic features for fast processing.',
     learned: 'Voice signal processing, feature extraction, ML pipeline tuning.',
-    future: 'Add emotion-based feedback system or chatbot integration.',
-    link: 'https://github.com/akashxmachine/emotion-detector', // or demo video/github
+    future: 'Add emotion-based feedback system or chatbot integration.' // or demo video/github
   },
   {
     title: 'Career Guidance',
@@ -74,8 +72,7 @@ const projectDetailsData = [
     ],
     journey: 'I built the API endpoints and integrated BERT for NLP predictions.',
     learned: 'BERT fine-tuning, API design, full-stack coordination.',
-    future: 'Deploy as a SaaS platform with user authentication and dashboards.',
-    link: 'https://github.com/akashxmachine/career-guidance', // or actual live link
+    future: 'Deploy as a SaaS platform with user authentication and dashboards.' // or actual live link
   },
 ];
 
