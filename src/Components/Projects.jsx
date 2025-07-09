@@ -42,7 +42,7 @@ const projectDetailsData = [
     journey: 'We avoided speech-to-text and focused on raw acoustic features for fast processing.',
     learned: 'Voice signal processing, feature extraction, ML pipeline tuning.',
     future: 'Add emotion-based feedback system or chatbot integration.', // or demo video/github
-    link: 'https://akashh0.github.io/WeatherSite/'
+    link: 'https://github.com/Akashh0/Emotion-Detection-Using-Wave-Format'
   },
   {
     title: 'Career Guidance',
