@@ -6,28 +6,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './Projects.css';
 import horizonx from '../Assets/horizonx.png';
-import safeHouse from '../Assets/safehouse.png';
 import emotion from '../Assets/emotion.png';
 import career from '../Assets/career.png';
 import ProjectDetails from './ProjectDetails';
 
 // Full project data for detailed view
 const projectDetailsData = [
-  {
-    title: 'SafeHouse',
-    description: 'A cyber awareness site with interactive content and videos.',
-    image: safeHouse,
-    details: 'Cybersecurity awareness site with React, video modals, and an interactive game.',
-    tech: ['React', 'JavaScript', 'CSS3', 'VideoJS', 'Modals'],
-    features: [
-      'Interactive cyber awareness game',
-      'Pop-up modal video library',
-      'Responsive layout',
-    ],
-    journey: 'We brainstormed a way to make cybersecurity engaging for all. I handled the video modals and interactivity.',
-    learned: 'State management in React, modal UI, component reuse.',
-    future: 'Add quiz certification and user login system.', // 🔗 Add your deployed link here
-  },
   {
     title: 'HorizonX',
     description: 'A weather app with 3D globe and real-time news carousel.',
@@ -41,7 +25,8 @@ const projectDetailsData = [
     ],
     journey: 'From building globe terrain to layering real-time data, it was all about syncing UI and UX.',
     learned: '3D rendering basics, real-time data flow, layered React composition.',
-    future: 'Improve performance with lazy loading and WebGL optimization.'// 🔗 Add your deployed link here
+    future: 'Improve performance with lazy loading and WebGL optimization.',// 
+    link : 'https://akashh0.github.io/WeatherSite/'// 🔗 Add your deployed link here
   },
   {
     title: 'Emotion Detector',
@@ -56,7 +41,8 @@ const projectDetailsData = [
     ],
     journey: 'We avoided speech-to-text and focused on raw acoustic features for fast processing.',
     learned: 'Voice signal processing, feature extraction, ML pipeline tuning.',
-    future: 'Add emotion-based feedback system or chatbot integration.' // or demo video/github
+    future: 'Add emotion-based feedback system or chatbot integration.', // or demo video/github
+    link: 'https://akashh0.github.io/WeatherSite/'
   },
   {
     title: 'Career Guidance',
@@ -71,7 +57,7 @@ const projectDetailsData = [
     ],
     journey: 'I built the API endpoints and integrated BERT for NLP predictions.',
     learned: 'BERT fine-tuning, API design, full-stack coordination.',
-    future: 'Deploy as a SaaS platform with user authentication and dashboards.' // or actual live link
+    future: 'Deploy as a SaaS platform with user authentication and dashboards.', // or actual live link
   },
 ];
 
