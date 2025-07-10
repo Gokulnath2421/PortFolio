@@ -58,6 +58,7 @@ const projectDetailsData = [
     journey: 'I built the API endpoints and integrated BERT for NLP predictions.',
     learned: 'BERT fine-tuning, API design, full-stack coordination.',
     future: 'Deploy as a SaaS platform with user authentication and dashboards.', // or actual live link
+    link: 'https://github.com/Akashh0/Career-Roadmap-ML-Model'
   },
 ];
 
