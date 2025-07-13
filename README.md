@@ -1,4 +1,4 @@
-# 💼 Akash's Developer Portfolio
+# 💼Gokul Portfolio
 
 Welcome to my personal portfolio website — a sleek, responsive, and immersive web experience built with **React + Vite**, enriched with 3D elements, animated carousels, and a beautifully blurred glassmorphic design.
 
