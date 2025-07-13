@@ -11,11 +11,11 @@ export default function Contact() {
       <div className="contact-grid">
         <div className="contact-item">
           <Mail className="contact-icon" />
-          <span>akashkrishh75@gmail.com</span>
+          <span>gokulnath2421@gmail.com</span>
         </div>
         <div className="contact-item">
           <Phone className="contact-icon" />
-          <span>+91 7418181515</span>
+          <span>+91 9385937546</span>
         </div>
         <div className="contact-item">
           <MapPin className="contact-icon" />
@@ -29,14 +29,14 @@ export default function Contact() {
         </div>
         <div className="contact-item">
           <Linkedin className="contact-icon" />
-          <a href="https://www.linkedin.com/in/akash-krishnan-m-401249303/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/gokul-nath-sn" target="_blank" rel="noreferrer">
             Linkedin Profile
           </a>
         </div>
         
         <div className="contact-item">
           <Github className="contact-icon" />
-          <a href="https://github.com/Akashh0" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Gokulnath2421" target="_blank" rel="noreferrer">
             GitHub Profile
           </a>
         </div>

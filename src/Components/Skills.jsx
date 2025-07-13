@@ -3,8 +3,8 @@ import './Skills.css';
 
 export default function Skills() {
   const skills = [
-    'HTML', 'CSS', 'JavaScript', 'React + Vite',
-    'Node.js', 'Django', 'REST API',
+    'HTML', 'CSS', 'JavaScript',
+    'Node.js', 'REST API',
     'MongoDB', 'Git', 'Figma', 'Blender', 'mySQL', 'Python',
     'Php', 'C++'
   ];

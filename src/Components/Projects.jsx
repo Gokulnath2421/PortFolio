@@ -26,7 +26,7 @@ const projectDetailsData = [
     journey: 'From building globe terrain to layering real-time data, it was all about syncing UI and UX.',
     learned: '3D rendering basics, real-time data flow, layered React composition.',
     future: 'Improve performance with lazy loading and WebGL optimization.',// 
-    link : 'https://akashh0.github.io/WeatherSite/'// 🔗 Add your deployed link here
+    link : 'https://github.com/Gokulnath2421/GenAI'// 🔗 Add your deployed link here
   },
   {
     title: 'Emotion Detector',

@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="about-text">
         <h2>About Me</h2>
         <p>
-          Hey there, I’m <strong>Akash</strong> — a full-stack web developer who loves building clean, responsive, and scalable web apps. I work with React, Vite, and JavaScript on the front end, and Django or Node.js on the back.
+          Hey there, I’m <strong>Gokul</strong> — a full-stack web developer who loves building clean, responsive, and scalable web apps. I work with React, Vite, and JavaScript on the front end, and Django or Node.js on the back.
 
 From crafting smooth UIs to designing robust backends, I enjoy bringing ideas to life with code that’s fast, functional, and user-focused. Always building, always learning.
         </p>
