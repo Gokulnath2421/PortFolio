@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import profileImage from "Images\Camera Roll 1\WhatsApp Image 2025-04-29 at 20.03.45_1b6c387f.jpg" // Replace with your image path
+import profileImage from "\Assets\My Photo.jpg" // Replace with your image path
 
 export default function AboutMe() {
   return (
