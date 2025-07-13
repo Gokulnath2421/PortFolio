@@ -11,11 +11,11 @@ export default function AboutMe() {
       <div className="about-text">
         <h2>About Me</h2>
         <p>
-          Hey there, I’m <strong>Gokul</strong> — a full-stack web developer who loves building clean, responsive, and scalable web apps. I work with React, Vite, and JavaScript on the front end, and Django or Node.js on the back.
+          Hey there, I’m <strong>Gokul</strong> —  a passionate Computer Science student specializing in AI and ML. I enjoy building smart systems, exploring deep learning, and developing real-time applications
 
-From crafting smooth UIs to designing robust backends, I enjoy bringing ideas to life with code that’s fast, functional, and user-focused. Always building, always learning.
+ With experience in Python, JavaScript, and hands-on projects like ASL detection using YOLOv8, I’m focused on becoming a Machine Learning Developer.
         </p>
-        <p>And..I'm a 3D enthusiast who brings ideas to life through Blender. From modeling immersive environments to animating sleek visual stories, I blend form and function with creativity. Whether it’s for games, websites, or cinematic scenes, I craft visuals that don’t just look good — they move you. So.. Yeah thats it. You can go exploring below now!</p>
+        <p>I also love creating meaningful tech solutions and continuously learning new tools to grow in the AI field.</p>
       </div>
     </section>
   );
