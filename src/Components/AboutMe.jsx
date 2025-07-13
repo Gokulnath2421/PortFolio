@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="about-text">
         <h2>About Me</h2>
         <p>
-          Hey there, I’m <strong>Gokul</strong> —  a passionate Computer Science student specializing in AI and ML. I enjoy building smart systems, exploring deep learning, and developing real-time applications
+          Hey there, I’m <strong>Gokul</strong> —  a passionate Computer Science student specializing in AI and ML. I enjoy building smart systems, exploring deep learning, and developing real-time applications.
 
  With experience in Python, JavaScript, and hands-on projects like ASL detection using YOLOv8, I’m focused on becoming a Machine Learning Developer.
         </p>
