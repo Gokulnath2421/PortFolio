@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import profileImage from "../Assets\My Photo.jpg" // Replace with your image path
+import profileImage from '../Assets/My Photo.jpg' // Replace with your image path
 
 export default function AboutMe() {
   return (
