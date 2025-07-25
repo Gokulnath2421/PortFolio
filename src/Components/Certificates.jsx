@@ -4,10 +4,10 @@ import './Certificates.css';
 
 const certifications = [
   {
-    year: "2023 (June)",
-    title: "Introduction to Python",
-    org: "cognitiveai",
-    link: "https://courses.ibmcep.cognitiveclass.ai/certificates/c8f2d92a14514358a623ef095fb09cb7"
+    year: "2024 (July)",
+    title: "Machine Learning",
+    org: "cognibot",
+    link: "https://certificates.cognibot.ml/MLPT124/42611039.html"
   },
   {
     year: "2023 (October)",
